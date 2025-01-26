@@ -28,12 +28,19 @@ iframe {
 }
 
 @media (max-width: 768px) {
+	iframe {
+		height: unset;	
+	}
+	
 	.container {
 		flex-direction: column;
+		align-content: center;
 		height: auto;
 	}
 
 	.video {
 		flex: 1;
+		min-height: 250px;
+
 	}
 }

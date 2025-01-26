@@ -20,7 +20,7 @@ iframe {
 	gap: 10px;
 	flex-wrap: wrap;
 	justify-content: center;
-	padding: 10px;
+	padding: 18px;
 }
 
 .video {
@@ -31,7 +31,7 @@ iframe {
 	iframe {
 		height: unset;	
 	}
-	
+
 	.container {
 		flex-direction: column;
 		align-content: center;
@@ -39,8 +39,8 @@ iframe {
 	}
 
 	.video {
-		flex: 1;
 		min-height: 250px;
-
+		display: flex;
+		align-items: stretch;
 	}
 }
